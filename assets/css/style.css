@@ -5,18 +5,24 @@
 }
 
 .menu {
-  height: 40px;
+  height: 60px;
   background-color: #333333;
+}
+
+.logo {
+  float: left;
+  width: 200px;
 }
 
 .menuint {
   width: 100%;
   max-width: 1040px;
-  height: 40px;
+  height: 60px;
   margin: auto;
 }
 
 .menu ul {
+  float: right;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -24,8 +30,8 @@
 
 .menu li {
   float: left;
-  height: 40px;
-  line-height: 40px;
+  height: 60px;
+  line-height: 60px;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -35,6 +41,7 @@
 }
 
 .menu a {
+  font-size: 12px;
   color: #FFF;
   text-decoration: none;
 }
@@ -47,8 +54,10 @@
 }
 
 .submenuitem {
+  font-size: 12px;
   width: 100px;
   height: 30px;
+  line-height: 30px;
   padding-left: 10px; 
 }
 
