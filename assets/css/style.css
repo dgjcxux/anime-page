@@ -14,9 +14,13 @@
   width: 200px;
 }
 
+.burger {
+  display: none;
+}
+
 .menuint {
   width: 100%;
-  max-width: 1040px;
+  max-width: 1024px;
   height: 60px;
   margin: auto;
 }
@@ -72,7 +76,7 @@
 
 .ultimasnoticiasint {
   width: 100%;
-  max-width: 1040px;
+  max-width: 1024px;
   height: 40px;
   margin: auto;
 }
@@ -110,7 +114,7 @@
 
 .containerint {
   width: 100%;
-  max-width: 1040px;
+  max-width: 1024px;
   margin: auto;
   background-color: #999;
 }
@@ -121,7 +125,7 @@
 }
 
 .rightside {
-  width: 275px;
+  width: 259px;
   min-height: 200px;
   float: right;
   margin-left: 12px;
@@ -161,6 +165,10 @@
   padding: 10px 0px;
   border-bottom: 1px solid #CCC;
   text-align: left;
+}
+
+.widgetconteudo .publicidade {
+  width: 258px;
 }
 
 .noticiaitem a {
@@ -287,4 +295,110 @@
 
 .noticiabig .noticiainfo {
   width: 384px;
+}
+
+@media only screen and (min-width:425px) and (max-width:768px) {
+  .menuint,
+  .ultimasnoticiasint {
+    max-width: 768px;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .leftside {
+    width: 768px;
+  }
+
+  .noticiabig .noticiatitulo {
+    font-size: 20px;
+}
+
+@media only screen and (max-width:425px) {
+  #menu {
+    display: none;
+  }
+  
+  .menu ul {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333333;
+    z-index: 9;
+    display: none;
+  }
+
+  .menu li {
+    float: none;
+    height: auto;
+  }
+
+  .menu li img {
+    display: none;
+  }
+
+  .submenu {
+    position: relative;
+    display: block;
+  }
+
+  .ultimasnoticias {
+    display: none;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .leftside {
+    width: 425px;
+  }
+
+  .noticiabig .noticiatitulo {
+    font-size: 20px;
+}
+
+  .slideshow, .slideshowarea, .slide {
+    height: auto;
+  }
+
+  .slideshow {
+    margin-bottom: 10px;
+  }
+
+  .slidetitulo {
+    font-size: 14px;
+  }
+
+  .slidesubtitulo {
+    font-size: 12px;
+  }
+
+  .slideinfo {
+    margin-top: 310px;
+  }
+
+  .noticiaareamain {
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .noticiaareaside {
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .menuint .burger {
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 20px;
+    z-index: 10;
+  }
+
 }
