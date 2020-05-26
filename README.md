@@ -7,4 +7,4 @@ Personal anime website dedicated to news.
 
 #### PREVIEW
 
-![Page Preview](https://i.imgur.com/UMzc3Tc.png "Page Preview")
+![Website Preview](https://i.imgur.com/Gm8WUZ3.png "Website Preview")
