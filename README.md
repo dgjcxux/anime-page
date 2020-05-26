@@ -1,6 +1,6 @@
 # Anime Fire
 
-Personal anime website dedicated to news.
+Personal Website dedicated to Anime News.
 
 - HTML
 - CSS
